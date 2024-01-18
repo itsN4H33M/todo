@@ -31,9 +31,12 @@ const tasksSlice = createSlice({
         task.dueDate = dueDate;
       }
     },
+    moveTask: (state, action) => {
+      return action.payload;
+    },
   },
 });
 
-export const { addTask, removeTask, toggleTask, setDueDate } = tasksSlice.actions;
+export const { addTask, removeTask, toggleTask, setDueDate, moveTask } = tasksSlice.actions;
 
 export default tasksSlice.reducer;

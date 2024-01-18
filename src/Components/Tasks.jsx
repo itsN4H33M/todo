@@ -33,7 +33,7 @@ function Tasks() {
                                 value={dueDate}
                                 onChange={e => setDueDate(e.target.value)}
                             />
-                            <div className='d-flex mt-2'>
+                            <div className='d-flex mt-1'>
                                 <input
                                     className='form-control rounded-0'
                                     type="text"
